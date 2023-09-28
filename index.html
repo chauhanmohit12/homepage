@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+
+        <div class="body">
+
+            <div class="head">
+                <div class="atom animation">
+                    <div class="electron"></div>
+                    <div class="electron-alpha"></div>
+                    <div class="electron-omega"></div>
+                </div>
+
+                <div id="editable">Talk is Cheap, <br> Show me the Code</div>
+
+            </div>
+
+            <div class="searchbar">
+                <div class="search">
+                    <img class="bing" id = "bing" src="bing.png">
+                    <img class="google hidden" id = "google" src="google.png">
+                    <input type="text" id="search" placeholder="Search anything">
+                </div>
+                <button class="searchbtn" onclick="searchEngine()">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                <button class="searchbtn">
+                    <i class="fa fa-microphone" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="options">
+                <div class="option active" id = "bing2">
+                    <div class="name" onclick = "updateEngine('bing')">
+                        <img class="img" src="bing.png">
+                        <div class="text">Bing</div>
+                    </div>
+                </div>
+
+                <div class="option" id = "google2">
+                    <div class="name" onclick = "updateEngine('google')">
+                        <img class="img" src="google.png">
+                        <div class="text">Google</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sites">
+
+                <div class="panel">
+
+                    <div class="item" onclick = "func('chat.openai.com')">
+
+                        <img src="https://static.vecteezy.com/system/resources/previews/022/227/364/non_2x/openai-chatgpt-logo-icon-free-png.png"
+                            alt="" class="logo">
+
+                        <div class="site">
+                            <div class="website">Chat gpt</div>
+                            <div class="link">chat.openai.com</div>
+
+                        </div>
+                    </div>
+
+                    <div class="item" onclick = "func('bard.google.com')">
+
+                        <img src="https://magoven.io/wp-content/uploads/2023/05/Google-Bard-Logo.png"
+                            alt="" class="logo">
+
+                        <div class="site">
+                            <div class="website">Google bard</div>
+                            <div class="link">bard.google.com</div>
+
+                        </div>
+                    </div>
+
+                    <div class="item" onclick = "func('replit.com')">
+
+                        <img src="https://avatars3.githubusercontent.com/u/983194?s=280&v=4"
+                            alt="" class="logo">
+
+                        <div class="site">
+                            <div class="website">Replit</div>
+                            <div class="link">replit.com</div>
+
+                        </div>
+                    </div>
+
+                    <div class="item" onclick = "func('stackoverflow.com')">
+
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/stackoverflow-1024.png"
+                            alt="" class="logo">
+
+                        <div class="site">
+                            <div class="website">Stack Overflow</div>
+                            <div class="link">stackoverflow.com</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel">
+
+                    <div class="item" onclick = "func('classroom.google.com')">
+
+                        <img src="https://www.clipartkey.com/mpngs/m/45-457301_google-classroom-icon.png"
+                            alt="" class="logo">
+
+                        <div class="site">
+                            <div class="website">Google classroom</div>
+                            <div class="link">classroom.google.com</div>
+
+                        </div>
+                    </div>
+
+                    <div class="item" onclick = "func('github.com/chauhanmohit12')">
+
+                        <img src="https://pngimg.com/uploads/github/github_PNG40.png"
+                            alt="" class="logo">
+
+                        <div class="site">
+                            <div class="website">Git hub</div>
+                            <div class="link">github.com/chauhanmohit12</div>
+
+                        </div>
+                    </div>
+
+                    <div class="item" onclick = "func('youtube.com')">
+
+                        <img src="https://homes4hope.org/wp-content/uploads/2019/01/youtube-icon-flat-red-play-button-logo-vector.png"
+                            alt="" class="logo">
+
+                        <div class="site">
+                            <div class="website">You tube</div>
+                            <div class="link">youtube.com</div>
+
+                        </div>
+                    </div>
+
+                    <div class="item" onclick = "func('open.spotify.com')">
+
+                        <img src="https://companieslogo.com/img/orig/SPOT-c85b9454.png"
+                            alt="" class="logo">
+
+                        <div class="site">
+                            <div class="website">Spotify</div>
+                            <div class="link">open.spotify.com</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
